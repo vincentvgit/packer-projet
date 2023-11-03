@@ -1,0 +1,17 @@
+subscription_id = "393e3de3-0900-4b72-8f1b-fb3b1d6b97f1"
+tenant_id = "7349d3b2-951f-41be-877e-d8ccd9f3e73c"
+client_id = "cd37b9b7-510d-4860-b544-d8bdf70501a9"
+client_secret = "u~X8Q~uZjpgqWcNY~Yo0HbvVizqd.xGfMNZHua74"
+
+# Ubuntu
+image_name_ubuntu = "ubuntu-pkr"
+image_version_ubuntu = "20231102.0.01"
+resource_group_name = "vvtest"
+storage_account = "stockpacker"
+source_image_publisher = "Canonical"
+source_image_offer = "0001-com-ubuntu-server-jammy"
+source_image_sku = "22_04-lts-gen2"
+#capture_container_name ="images"
+#capture_name_prefix = "packer"
+location = "France Central"
+vm_size ="Standard_B1s"
